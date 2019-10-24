@@ -5,7 +5,7 @@ Fill each region with the digits 1 though N, where N is the number of cells in t
 
 Once the grid is completed, take the largest “horizontally concatenated number” from each region and compute the sum of these values. Enter this sum as your answer. Good luck!
 
-[](https://www.janestreet.com/puzzles/wp-content/uploads/2019/09/20190903_block_party_3.png)
+[IMAGE](https://www.janestreet.com/puzzles/wp-content/uploads/2019/09/20190903_block_party_3.png)
 
 The solution is coded in Python3.6 and C++11. It involves finding and storing implications via bit manipulations.
 
@@ -13,7 +13,7 @@ The solution is coded in Python3.6 and C++11. It involves finding and storing im
 [C++ solution](./js_2019_09.cpp): No special requirements 
 
 Both programs output the following solution:
-'''
+```
 ------------------------------------
 | 4 | 7   8   1 | 1 | 1 | 3 | 1 | 7 
      ---     ---     ---     ---    
@@ -34,10 +34,10 @@ Both programs output the following solution:
 | 4 | 3   8   7 | 3   4   2   5 | 2 
 ------------------------------------
 Answer: 6092
-'''
+```
 
 The solution follows these implications:
-'''
+```
 X implied 1  at ( 0 , 5 }
 X implied 1  at ( 0 , 7 }
 X implied 1  at ( 1 , 1 }
@@ -239,4 +239,4 @@ X implied 2  at ( 8 , 8 }
 R implied 6  at ( 1 , 5 }
 R implied 4  at ( 4 , 5 }
 R implied 3  at ( 7 , 8 }
-'''
+```
