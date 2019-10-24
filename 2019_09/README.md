@@ -5,12 +5,13 @@ Fill each region with the digits 1 though N, where N is the number of cells in t
 
 Once the grid is completed, take the largest “horizontally concatenated number” from each region and compute the sum of these values. Enter this sum as your answer. Good luck!
 
-[IMAGE](https://www.janestreet.com/puzzles/wp-content/uploads/2019/09/20190903_block_party_3.png)
+![](https://www.janestreet.com/puzzles/wp-content/uploads/2019/09/20190903_block_party_3.png)
 
 The solution is coded in Python3.6 and C++11. It involves finding and storing implications via bit manipulations.
 
-[Python solution](./js_2019_09.py): Requires Numpy
-[C++ solution](./js_2019_09.cpp): No special requirements 
+[**Python solution**](./js_2019_09.py): Requires Numpy
+
+[**C++ solution**](./js_2019_09.cpp): No special requirements 
 
 Both programs output the following solution:
 ```
