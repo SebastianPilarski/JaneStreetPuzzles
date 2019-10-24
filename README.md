@@ -1,4 +1,4 @@
-# JaneStreetPuzzlesTemp
+# Jane Street Puzzles
 **Code solutions to selected monthly [Jane Street Puzzles](https://www.janestreet.com/puzzles/).
 Solutions in Python and C++.**
 
