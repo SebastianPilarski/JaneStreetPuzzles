@@ -1,4 +1,6 @@
 # 2019 September: Block Party 3
+
+# Question:
 https://www.janestreet.com/puzzles/block-party-3/
 
 Fill each region with the digits 1 though N, where N is the number of cells in the given region. For every cell in the grid, if K denotes the number in that cell, then the nearest value of K (looking only horizontally or vertically) must be located exactly K cells away. (As in the example, below.) Some of the cells have already been filled in.
@@ -7,6 +9,7 @@ Once the grid is completed, take the largest “horizontally concatenated number
 
 ![](https://www.janestreet.com/puzzles/wp-content/uploads/2019/09/20190903_block_party_3.png)
 
+# Solution:
 The solution is coded in Python3.6 and C++11. It involves finding and storing implications via bit manipulations.
 
 [**Python solution**](./js_2019_09.py): Requires Numpy
