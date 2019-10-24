@@ -12,7 +12,7 @@ Once the grid is completed, take the largest “horizontally concatenated number
 # Solution:
 The same solution is implemented in both Python3.6 and C++11. It involves finding and storing implications via bit manipulations.
 
-To solve the problem it is conveninent to keep track of known/assumed values and excluded values for each square. The puzzle can then be solved with a sequence of implications (No trial and error decisions were needed). There are three implication rules X, R, and Z for each square: X is an implication caused by the exclusion of all but one possible value, R is an implication due to the exclusion of all but one value in the square's region, Z is an implication due to only one possible min distance satisfaction. Possible/excluded values can be encoded as a single bit in a byte. 
+To solve the problem it is conveninent to keep track of known/assumed values and excluded values for each square. The puzzle can then be solved with a sequence of implications (No trial and error decisions were needed). There are three implication rules X, R, and Z for each square: X is an implication caused by the exclusion of all but one possible value, R is an implication due to the exclusion of all but one value in the square's region, Z is an implication due to only one possible min distance satisfaction. Possible/excluded values for each square can be encoded as a single bit in a byte. 
 
 [**Python solution**](./js_2019_09.py): Requires numpy
 
